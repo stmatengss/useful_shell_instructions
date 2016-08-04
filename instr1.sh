@@ -32,3 +32,5 @@ diff a b
 if [ ! -f "$myFile" ]; then 
 touch "$myFile" 
 fi 
+
+rsync A B
