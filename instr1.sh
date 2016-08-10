@@ -34,3 +34,7 @@ touch "$myFile"
 fi 
 
 rsync A B
+
+格式化全文： gg=G
+
+自动缩进当前行： ==
