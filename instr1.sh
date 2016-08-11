@@ -38,3 +38,21 @@ rsync A B
 格式化全文： gg=G
 
 自动缩进当前行： ==
+
+在shell 中以 ， split 字符串如下
+str="aaa,bbb,ccc,ddd"
+ 
+我一般会用
+echo $str |awk -F, '{print $1}' 这样的方式
+或者是
+echo $str|cut -d"," -f1 这样的方式
+ 
+都能达到目的，但是由于文件很大，有很多行，上述方式需要开辟管道，会启动新进程，效率很低下。
+ 
+在网上找了一下 存字符串的切分方式：
+ 
+arr=(${line//,/ })  
+year=${arr[0]}
+userId=${arr[1]}
+ 
+效率是最高的。
