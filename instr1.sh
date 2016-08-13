@@ -56,3 +56,12 @@ year=${arr[0]}
 userId=${arr[1]}
  
 效率是最高的。
+
+
+比如变量是str
+str="this is a string"
+要想在判断str中是否含有"this"这个字符串，下面的语句是可行的
+[[ $str =~ "this" ]] && echo "\$str contains this" 
+[[ $str =~ "that" ]] || echo "\$str does NOT contain this"
+
+其实这里就是用到了"[[" 判断命令和 "=~"正则式匹配符号
