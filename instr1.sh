@@ -83,3 +83,6 @@ for line3 in $(<$1)
 do  
     echo $line3  
 done  
+
+grep -o
+grep -e
