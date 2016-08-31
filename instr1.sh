@@ -65,3 +65,21 @@ str="this is a string"
 [[ $str =~ "that" ]] || echo "\$str does NOT contain this"
 
 其实这里就是用到了"[[" 判断命令和 "=~"正则式匹配符号
+
+echo "##### 方法 1 #####"  
+while read line1  
+do  
+    echo $line1  
+done < $1  
+  
+echo "##### 方法 2 #####"  
+cat $1 | while read line2  
+do  
+    echo $line2  
+done  
+  
+echo "##### 方法 3 #####"  
+for line3 in $(<$1)  
+do  
+    echo $line3  
+done  
