@@ -10,3 +10,5 @@ wall "" #send message to someone else.
 
 # tmp pip
 pip install -i https://pypi.tuna.tsinghua.edu.cn/simple some-package
+
+alternatives --install /usr/bin/java  java  /usr/java/jre1.6.0_21/bin/java  400
