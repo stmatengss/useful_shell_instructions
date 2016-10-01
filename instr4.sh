@@ -12,3 +12,5 @@ wall "" #send message to someone else.
 pip install -i https://pypi.tuna.tsinghua.edu.cn/simple some-package
 
 alternatives --install /usr/bin/java  java  /usr/java/jre1.6.0_21/bin/java  400
+
+:w !sudo tee % # vim save by root
