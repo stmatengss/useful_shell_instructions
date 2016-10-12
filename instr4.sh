@@ -19,4 +19,5 @@ g++ -fopenmp ** #using OpenMP
 
 time instruction #recording running time
 
+find -name 'mpich' -type d #find dir
 
