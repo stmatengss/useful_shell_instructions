@@ -21,3 +21,9 @@ time instruction #recording running time
 
 find -name 'mpich' -type d #find dir
 
+#1: 定位光标
+#2: CTRL+v              #进入Visual Mode。
+#3: j                 #选择要在哪些行加入？！
+#4: I                 #一定是大写！
+#5: 输入要插入的文本
+#6: ESC 
