@@ -27,3 +27,5 @@ find -name 'mpich' -type d #find dir
 #4: I                 #一定是大写！
 #5: 输入要插入的文本
 #6: ESC 
+
+find / -mtime 0 | grep xxxx
