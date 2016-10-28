@@ -29,3 +29,5 @@ find -name 'mpich' -type d #find dir
 #6: ESC 
 
 find / -mtime 0 | grep xxxx
+
+g++ -w file # inherbit warning
