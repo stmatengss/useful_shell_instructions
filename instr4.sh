@@ -41,3 +41,5 @@ cat /proc/version
 uname -a 
 3.查看操作系统版本号]
 lsb_release -a
+
+aptitude # serach version
