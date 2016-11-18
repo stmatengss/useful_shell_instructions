@@ -33,3 +33,11 @@ find / -mtime 0 | grep xxxx
 g++ -w file # inherbit warning
 
 strings /usr/lib/libstdc++.so.6 | grep GLIBCXX  # you can see the version of your libarary
+
+1.gcc版本
+gcc -v 
+cat /proc/version
+2.查看内核版本
+uname -a 
+3.查看操作系统版本号]
+lsb_release -a
