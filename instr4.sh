@@ -31,3 +31,5 @@ find -name 'mpich' -type d #find dir
 find / -mtime 0 | grep xxxx
 
 g++ -w file # inherbit warning
+
+strings /usr/lib/libstdc++.so.6 | grep GLIBCXX  # you can see the version of your libarary
