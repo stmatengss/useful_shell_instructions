@@ -43,3 +43,7 @@ uname -a
 lsb_release -a
 
 aptitude # serach version
+
+ar rcs  libxxx.a xx1.o xx2.o
+ar x a.a
+objdump -S obj
