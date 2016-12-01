@@ -47,3 +47,6 @@ aptitude # serach version
 ar rcs  libxxx.a xx1.o xx2.o
 ar x a.a
 objdump -S obj
+
+apt-get -f install
+dpkg -l | grep -i 'xxxx'
