@@ -53,3 +53,5 @@ dpkg -l | grep -i 'xxxx'
 
 aptitude search boost
 apt-cache  showpkg libboost-all-dev
+
+cloc # a very useful tool to calculate lines number of your code
