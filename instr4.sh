@@ -50,3 +50,6 @@ objdump -S obj
 
 apt-get -f install
 dpkg -l | grep -i 'xxxx'
+
+aptitude search boost
+apt-cache  showpkg libboost-all-dev
