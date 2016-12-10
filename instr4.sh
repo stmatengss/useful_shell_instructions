@@ -55,3 +55,8 @@ aptitude search boost
 apt-cache  showpkg libboost-all-dev
 
 cloc # a very useful tool to calculate lines number of your code
+
+netstate -atunlp
+# -a all -t tcp -u udp -n port -l listening -p pid
+
+ssh -p port -f -N -D 127.0.0.1:port  User@IP
