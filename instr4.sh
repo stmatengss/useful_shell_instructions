@@ -60,3 +60,7 @@ netstate -atunlp
 # -a all -t tcp -u udp -n port -l listening -p pid
 
 ssh -p port -f -N -D 127.0.0.1:port  User@IP
+
+du -b # bytes
+
+df -f -ih # watcher of disk
