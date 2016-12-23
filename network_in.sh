@@ -1,2 +1,6 @@
 ifconfig eth0 ip up # up NIC
-cat /proc/device
+cat /proc/devices
+cat /proc/version # lookup linux version
+route add default gw [GateWay] # add GateIp
+route -n # show the route table
+iperf # a C/S-based network measurement tool
