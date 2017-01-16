@@ -1,6 +1,8 @@
 noremap <F4> 0i//<Esc> 
 imap <F4> <Esc>0i//<Esc> 
-" quick commented the code
+noremap <F3> 02x<Esc>
+imap <F3> <Esc>02x<Esc>
+" quick commented & uncommented the code
 
 set nocompatible              " be iMproved, required
 filetype off                  " required
