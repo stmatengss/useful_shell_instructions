@@ -7,3 +7,5 @@ more /var/log/dmesg | grep cache # look up cache
 lscpu # look up cpu
 
 fdisk -l # look up cap of disk
+
+gcc -dumpspecs # look up which libirary is avaliable
