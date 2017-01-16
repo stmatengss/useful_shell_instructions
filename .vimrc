@@ -1,3 +1,7 @@
+noremap <F4> 0i//<Esc> 
+imap <F4> <Esc>0i//<Esc> 
+" quick commented the code
+
 set nocompatible              " be iMproved, required
 filetype off                  " required
 set hlsearch
