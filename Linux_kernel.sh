@@ -15,3 +15,8 @@ ipcs –q # 只显示消息队列
      –s # 只显示信号量
      
 cat /proc/version # lookup system version
+
+vim /etc/sysctl.conf # change system variant
+sysctl -p # make the changes
+
+cat /proc/sys/kernel/* # Linux Kernel Info
