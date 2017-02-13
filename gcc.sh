@@ -15,4 +15,5 @@ gcc -Werror -Wwarning -w ... # diable or allow the print of warning
 gcc -g ... # for GDB debug
 
 ar [cr] test_all.a test1.o test2.o # build up a new lib with test1.c & test2.c
- 
+
+ldd test.so[/usr/lib/xxx.so] # find the details of 'so' type file
