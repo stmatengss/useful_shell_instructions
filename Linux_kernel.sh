@@ -20,3 +20,7 @@ vim /etc/sysctl.conf # change system variant
 sysctl -p # make the changes
 
 cat /proc/sys/kernel/* # Linux Kernel Info
+
+ipcrm -m [shm_id] # clear the share memory
+
+ipcs -m # show shared memory / sem array / system queue
