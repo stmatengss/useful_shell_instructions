@@ -24,3 +24,5 @@ cat /proc/sys/kernel/* # Linux Kernel Info
 ipcrm -m [shm_id] # clear the share memory
 
 ipcs -m # show shared memory / sem array / system queue
+
+nice -n [number] [command] # run program with a speacial priority
