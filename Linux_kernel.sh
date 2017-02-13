@@ -26,3 +26,5 @@ ipcrm -m [shm_id] # clear the share memory
 ipcs -m # show shared memory / sem array / system queue
 
 nice -n [number] [command] # run program with a speacial priority
+
+kill INT/TERM/KILL/ABRT/BUS/SEGV [pid] # different signal to process
