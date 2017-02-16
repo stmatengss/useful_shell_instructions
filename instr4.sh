@@ -64,3 +64,6 @@ ssh -p port -f -N -D 127.0.0.1:port  User@IP
 du -b # bytes
 
 df -f -ih # watcher of disk
+
+sudo rm -vf /var/lib/apt/lists/* # solve the issue 'can't merge'
+sudo apt-get update
