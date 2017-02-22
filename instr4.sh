@@ -67,3 +67,5 @@ df -f -ih # watcher of disk
 
 sudo rm -vf /var/lib/apt/lists/* # solve the issue 'can't merge'
 sudo apt-get update
+
+lsmod | grep "xxx" # lookup the working state of linux kernel modules.
