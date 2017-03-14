@@ -81,4 +81,8 @@ chown mail:mail log2012.log # change the previlge of somone
 : '
 # comment
 '
+
 cp -rf `ls srcdir | grep -E -v "^(exclude_file|exclude_dir)$"` destdir/  # cp exclusive some files
+
+sudo visudo
+Defaults env_reset , timestamp_timeout=x # change timeout value of the sudo previldge
