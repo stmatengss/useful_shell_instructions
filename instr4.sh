@@ -81,3 +81,4 @@ chown mail:mail log2012.log # change the previlge of somone
 : '
 # comment
 '
+cp -rf `ls srcdir | grep -E -v "^(exclude_file|exclude_dir)$"` destdir/  # cp exclusive some files
