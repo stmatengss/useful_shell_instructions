@@ -77,3 +77,7 @@ taskset # A tool for indicating a core to a thread
 pgrep # find pid number through the pid name 
 
 chown mail:mail log2012.log # change the previlge of somone
+
+: '
+# comment
+'
