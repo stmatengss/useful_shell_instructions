@@ -86,3 +86,5 @@ cp -rf `ls srcdir | grep -E -v "^(exclude_file|exclude_dir)$"` destdir/  # cp ex
 
 sudo visudo
 Defaults env_reset , timestamp_timeout=x # change timeout value of the sudo previldge
+
+od # lookup the file with hex format
