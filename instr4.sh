@@ -91,3 +91,5 @@ od # lookup the file with hex format
 od -tx1 -tc hello
 
 strace ./exec # lookup the trace of the execution
+
+df -hT # lookup all mount devices you have
