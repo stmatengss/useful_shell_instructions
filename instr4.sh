@@ -93,3 +93,5 @@ od -tx1 -tc hello
 strace ./exec # lookup the trace of the execution
 
 df -hT # lookup all mount devices you have
+
+fusermount -u MountDir # umount remote dir
