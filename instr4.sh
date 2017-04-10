@@ -97,3 +97,5 @@ df -hT # lookup all mount devices you have
 fusermount -u MountDir # umount remote dir
 
 ps -eo pid,args,psr # pid args psr(logical CPU id)
+
+hostname # change the hostname of the host PC
