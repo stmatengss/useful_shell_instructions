@@ -13,6 +13,7 @@ gcc -dumpspecs # look up which libirary is avaliable
 ipcs –q # 只显示消息队列
      –m # 只显示共享内存
      –s # 只显示信号量
+     -l # display all limit information
      
 cat /proc/version # lookup system version
 
