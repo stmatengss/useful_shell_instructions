@@ -103,3 +103,5 @@ hostname # change the hostname of the host PC
 cat file | sort | uniq -c | sort -k 1 -n -r | vim - # is equal to word counting
 
 uname -r # check the linux version
+
+sudo rm /var/lib/apt/lists/* -vf # slove apt-get merge list error problem
