@@ -1,3 +1,8 @@
+set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [POS=%l,%v][%p%%]\ %{strftime(\"%d/%m/%y\ -\ %H:%M\")}
+set statusline=[%F]%y%r%m%*%=[Line:%l/%L,Column:%c][%p%%]
+set laststatus=2
+
+
 noremap <F4> 0i//<Esc> 
 imap <F4> <Esc>0i//<Esc> 
 noremap <F3> 02x<Esc>
