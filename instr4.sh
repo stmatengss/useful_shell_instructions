@@ -107,3 +107,7 @@ uname -r # check the linux version
 sudo rm /var/lib/apt/lists/* -vf # slove apt-get merge list error problem
 
 xvfb # using xwindows to emulate a gui
+
+cat /proc/version # lookup kernel version
+
+type xxx # lookup the postion of some cmd
