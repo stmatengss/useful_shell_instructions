@@ -111,3 +111,5 @@ xvfb # using xwindows to emulate a gui
 cat /proc/version # lookup kernel version
 
 type xxx # lookup the postion of some cmd
+
+dd if=/dev/zero of=50M.file bs=1M count=50 # touch a fixed size block
