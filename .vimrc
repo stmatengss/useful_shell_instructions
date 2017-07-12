@@ -7,6 +7,10 @@ noremap <F4> 0i//<Esc>
 imap <F4> <Esc>0i//<Esc> 
 noremap <F3> 02x<Esc>
 imap <F3> <Esc>02x<Esc>
+map <F2> :TlistToggle<CR>
+map <F6> :NERDTree<CR>
+map <F5> :make<CR>
+
 " quick commented & uncommented the code
 
 set nocompatible              " be iMproved, required
@@ -131,6 +135,11 @@ Plugin 'https://github.com/wincent/command-t.git'
 " git repos on your local machine (i.e. when working on your own plugin)
 "Plugin 'file:///home/gmarik/path/to/plugin'
 " ...
+
+Plugin 'scrooloose/nerdtree'
+Bundle 'git@github.com:Lokaltog/vim-powerline.git'
+Plugin 'taglist.vim'
+
 
 filetype plugin indent on     " required
 Bundle 'Valloric/YouCompleteMe'
