@@ -139,7 +139,7 @@ Plugin 'https://github.com/wincent/command-t.git'
 Plugin 'scrooloose/nerdtree'
 Bundle 'git@github.com:Lokaltog/vim-powerline.git'
 Plugin 'taglist.vim'
-
+Plugin 'oplatek/Conque-Shell'
 
 filetype plugin indent on     " required
 Bundle 'Valloric/YouCompleteMe'
