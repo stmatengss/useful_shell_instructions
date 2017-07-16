@@ -117,3 +117,5 @@ dd if=/dev/zero of=50M.file bs=1M count=50 # touch a fixed size block
 ufw enable | disable | allow [port] # ubuntu firewall
 
 nmap # a tool for scanning port
+
+sudo mnount -t nfs 192.168.1.100:/nfs-root /home # mount fucking NFS in master
