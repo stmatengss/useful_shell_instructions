@@ -119,3 +119,5 @@ ufw enable | disable | allow [port] # ubuntu firewall
 nmap # a tool for scanning port
 
 sudo mnount -t nfs 192.168.1.100:/nfs-root /home # mount fucking NFS in master
+
+lsattr # lookup attribution in different files
