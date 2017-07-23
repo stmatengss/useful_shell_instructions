@@ -121,3 +121,5 @@ nmap # a tool for scanning port
 sudo mnount -t nfs 192.168.1.100:/nfs-root /home # mount fucking NFS in master
 
 lsattr # lookup attribution in different files
+
+fdisk -l # lookup info of disks
