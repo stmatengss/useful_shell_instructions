@@ -125,3 +125,5 @@ lsattr # lookup attribution in different files
 fdisk -l # lookup info of disks
 
 lspci | grep -i vga # lookup info about GPU
+
+locate # find file easily
