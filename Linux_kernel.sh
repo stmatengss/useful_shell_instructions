@@ -35,3 +35,8 @@ kill INT/TERM/KILL/ABRT/BUS/SEGV [pid] # different signal to process
 ethtool # query or control network driver and hardware settings
 
 cat /sys/devices/system/cpu/cpu*/cpufreq/cpuinfo_max_freq # check cpu frequence
+
+lsmod
+modprobe
+modinfo
+# three ways to manage linux modulers
