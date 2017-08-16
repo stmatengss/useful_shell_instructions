@@ -1,0 +1,1 @@
+  sshfs -p 4759 admin@166.111.134.157:/home/admin/Im_mateng/CudaSift-Maxwell ./sublime_ssh/
