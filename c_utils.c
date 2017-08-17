@@ -19,6 +19,8 @@
 #define likely(x)      __builtin_expect(!!(x), 1)
 #define unlikely(x)    __builtin_expect(!!(x), 0)
 #define forceinline inline __attribute__((always_inline))
-#define _unused(x) ((void)(x))	/* Make production build happy */
+#define _unused(x) ((void)(x))
 
 #define is_aligned(x, A) (((uint64_t) x) % A == 0)
+
+#define LOG(...) fprintf(stdout, __VA_ARGS__)
