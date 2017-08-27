@@ -2,6 +2,7 @@ set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [POS=%l,%v][%p%%]\ %{strf
 set statusline=[%F]%y%r%m%*%=[Line:%l/%L,Column:%c][%p%%]
 set laststatus=2
 set mouse=a
+set shiftwidth=1
 
 noremap <F4> 0i//<Esc> 
 imap <F4> <Esc>0i//<Esc> 
