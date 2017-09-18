@@ -129,3 +129,5 @@ lspci | grep -i vga # lookup info about GPU
 locate # find file easily
 
 stat file_name # know more details about file
+
+echo "   fuck   " | xargs # trim string
