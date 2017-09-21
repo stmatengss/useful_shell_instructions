@@ -133,3 +133,5 @@ stat file_name # know more details about file
 echo "   fuck   " | xargs # trim string
 
 ldd exe # find depedency lib
+
+export LD_LIBRARY_PATH=.:$LD_LIBRARY_PATH # For static library and execution
