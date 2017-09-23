@@ -134,4 +134,7 @@ echo "   fuck   " | xargs # trim string
 
 ldd exe # find depedency lib
 
-export LD_LIBRARY_PATH=.:$LD_LIBRARY_PATH # For static library and execution
+# For static library and execution
+export LD_LIBRARY_PATH=.:$LD_LIBRARY_PATH
+LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/my_library/ 
+echo "library" >> /etc/ld.so.conf //alternative method
