@@ -4,3 +4,6 @@
 # config lib path
 cd bin/
 LD_PRELOAD=`sh jemalloc-config --libdir`/libjemalloc.so.`sh jemalloc-config --revision`
+
+# special configuration setting
+export MALLOC_CONF="XXX:XXX"
