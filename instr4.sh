@@ -138,3 +138,6 @@ ldd exe # find depedency lib
 export LD_LIBRARY_PATH=.:$LD_LIBRARY_PATH
 LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/my_library/ 
 echo "library" >> /etc/ld.so.conf //alternative method
+
+# A tricky way to load .so library
+LD_PRELOAD="/usr/lib/libXXX.so" 
