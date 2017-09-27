@@ -24,3 +24,8 @@
 #define is_aligned(x, A) (((uint64_t) x) % A == 0)
 
 #define LOG(...) fprintf(stdout, __VA_ARGS__)
+
+struct xxx{
+	...
+	...
+} __attribute__((aligned(CACHE_LINE_SIZE)))
