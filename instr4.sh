@@ -141,3 +141,9 @@ echo "library" >> /etc/ld.so.conf //alternative method
 
 # A tricky way to load .so library
 LD_PRELOAD="/usr/lib/libXXX.so" 
+
+# link motherfucker lib
+ln -s XXX.so
+
+# look up which .so file this exec depending on
+ldd exec
