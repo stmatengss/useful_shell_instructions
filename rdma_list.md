@@ -5,3 +5,6 @@ https://github.com/WANG-lp/RDMA/blob/master/pingpong-server.cpp
 https://github.com/IMCG/kiro/blob/master/src/kiro-rdma.h
 https://github.com/dyinnz/memecached-RDMA-test/blob/master/libevent-server.c
 https://github.com/pixelrazor/rdma-cs/blob/master/rdma%20v2/server.c
+https://www.mellanox.com/related-docs/prod_software/Performance_Tuning_Guide_for_Mellanox_Network_Adapters_Archive.pdf
+https://community.mellanox.com/docs/DOC-2517
+https://community.mellanox.com/docs/DOC-2898
