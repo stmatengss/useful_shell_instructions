@@ -5,3 +5,5 @@ lspci | grep Mellanox # look up the version of IB.
 iblinkinfo # look up ib status in the subnet
 
 ibhosts
+
+ibv_devinfo -v  # A strength version tool for getting information about IB
