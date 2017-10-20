@@ -7,3 +7,5 @@ iblinkinfo # look up ib status in the subnet
 ibhosts
 
 ibv_devinfo -v  # A strength version tool for getting information about IB
+
+/etc/modprobe.d/mlx4.conf  # configure file for tunning performancce
