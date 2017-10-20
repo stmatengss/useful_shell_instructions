@@ -9,3 +9,6 @@ ibhosts
 ibv_devinfo -v  # A strength version tool for getting information about IB
 
 /etc/modprobe.d/mlx4.conf  # configure file for tunning performancce
+
+service irqbalance stop
+mlnx_affinity start # use tunning mechinism providing by Mellanox
