@@ -1,4 +1,7 @@
 tmux new-session -s xxx
+
 Ctrl B + D
-tmux session-list
+
+tmux list-sessions
+
 tmux attach -t xxx
