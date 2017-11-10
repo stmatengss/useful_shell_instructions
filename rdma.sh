@@ -12,3 +12,5 @@ ibv_devinfo -v  # A strength version tool for getting information about IB
 
 service irqbalance stop
 mlnx_affinity start # use tunning mechinism providing by Mellanox
+
+ofed_info # get the info of whole software stack
