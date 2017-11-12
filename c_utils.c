@@ -46,3 +46,27 @@ struct xxx{
         fflush(stdout); \
     } \
 } while(0);
+	
+	#define is_aligned(x, A)		(((uint64_t) x) % A == 0)
+#define LOG(...) 		fprintf(stdout, __VA_ARGS__)
+// #define LOG(...) do{}while(0);
+#define ERR(...) 		fprintf(stderr, __VA_ARGS__)
+#define range_assert(x, a, b)	(assert(x >= a && x <= b))
+#define make_nbit_1(x, n)		(x | (1 << n))
+#define make_nbit_0(x, n)		(x & ~(1 << n))
+#define CASLOCK(lock)   while(!__sync_bool_compare_and_swap(&lock, 0, 1))
+#define CASUNLOCK(lock)	assert(lock == 1);  lock = 0
+#define assert_range(x, a, b, msg) do { \
+	if (x < a || x >= b) { \
+		ERR("[ERR] %d <=> %d (%d)\n", a, b, x); \
+		ERR("[ADD] %p\n", (void *)(r_nvm_mem + x)); \
+		ERR("[MSG] %d\n", msg); \
+		assert(0); \
+	} \
+} while (0);
+#define mem_dump(x, n) do { \
+	LOG("[MEM_DUMP]%p\n", x); \
+	for (int i = 0; i < n; i ++ ) { \
+		PRINT_BINARY_CHAR(*(x + i)); \
+	} \
+} while(0);
