@@ -17,3 +17,5 @@ mlnx_affinity start # use tunning mechinism providing by Mellanox
 
 ofed_info # get the info of whole software stack
 ofed_info -s # get version
+
+sudo modprobe ib_uverbs # load uverbs
