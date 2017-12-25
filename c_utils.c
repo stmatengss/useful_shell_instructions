@@ -46,8 +46,9 @@ struct xxx{
         fflush(stdout); \
     } \
 } while(0);
-	
-	#define is_aligned(x, A)		(((uint64_t) x) % A == 0)
+
+#define ALIGN_MEM(x, y)	((x + (y - 1)) / y * y)
+#define is_aligned(x, A)		(((uint64_t) x) % A == 0)
 #define LOG(...) 		fprintf(stdout, __VA_ARGS__)
 // #define LOG(...) do{}while(0);
 #define ERR(...) 		fprintf(stderr, __VA_ARGS__)
@@ -70,3 +71,37 @@ struct xxx{
 		PRINT_BINARY_CHAR(*(x + i)); \
 	} \
 } while(0);
+
+void REDLOG(const char *format, ...)
+{	
+	va_list args;
+
+	char buf1[1000], buf2[1000];
+	memset(buf1, 0, 1000);
+	memset(buf2, 0, 1000);
+
+    va_start(args, format);
+	vsnprintf(buf1, 1000, format, args);
+
+	snprintf(buf2, 1000, "\033[31m%s\033[0m", buf1);
+	printf("%s", buf2);
+	//write(2, buf2, 1000);
+    va_end( args );
+}
+
+void GREENLOG(const char *format, ...)
+{	
+	va_list args;
+
+	char buf1[1000], buf2[1000];
+	memset(buf1, 0, 1000);
+	memset(buf2, 0, 1000);
+
+    va_start(args, format);
+	vsnprintf(buf1, 1000, format, args);
+
+	snprintf(buf2, 1000, "\033[32m%s\033[0m", buf1);
+	printf("%s", buf2);
+	//write(2, buf2, 1000);
+    va_end( args );
+}
