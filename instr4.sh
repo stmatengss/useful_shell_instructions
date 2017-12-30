@@ -147,3 +147,5 @@ ln -s XXX.so
 
 # look up which .so file this exec depending on
 ldd exec
+
+grep -v -wvf file1 file2 # CMP different rows
