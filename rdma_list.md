@@ -9,6 +9,7 @@
 * https://community.mellanox.com/docs/DOC-2517
 * https://community.mellanox.com/docs/DOC-2898
 * https://github.com/jcxue/RDMA-Tutorial
+* https://patchwork.kernel.org/project/linux-rdma/list/
 
 ```
 Device #1:
