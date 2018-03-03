@@ -1,2 +1,4 @@
 * http://haofengjia.weebly.com/computer-science.html  // statisic
 * https://github.com/sundongxu/research-material // rdma
+* superadvisor // daemon thread tool
+* fabric // deploy tool
