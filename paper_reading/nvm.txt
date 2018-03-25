@@ -1,0 +1,1 @@
+NVthreads: Practical Persistence for Multi-threaded Applications
