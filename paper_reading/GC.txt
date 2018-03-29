@@ -1,0 +1,1 @@
+https://homes.cs.washington.edu/~arvind/cs422/lectureNotes/lfs-6.pdf # compact logs in lsfs
