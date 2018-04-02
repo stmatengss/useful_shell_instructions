@@ -3,3 +3,4 @@ https://conferences.sigcomm.org/events/apnet2017/slides/softrdma.pdf (????)
 Performance Isolation Anomalies in RDMA
 Efficient Memory Disaggregation with Infiniswap.
 Remote memory in the age of fast networks
+FluidMem: Memory as a Service for the Datacenter
