@@ -152,3 +152,6 @@ grep -v -wvf file1 file2 # CMP different rows
 
 
 echo 3 > /proc/sys/vm/drop_caches # get stable benchmark
+
+apt-get install linux-tools-common linux-tools-generic linux-tools-`uname -r`
+# install perf
