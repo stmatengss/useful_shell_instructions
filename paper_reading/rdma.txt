@@ -6,7 +6,11 @@ Remote memory in the age of fast networks
 FluidMem: Memory as a Service for the Datacenter
 https://stackoverflow.com/questions/24195174/what-are-the-performance-and-architectural-differences-between-pcie-and-qpi
 https://pdfs.semanticscholar.org/408e/f807f49d3e445b1cf3c496700f5ddb1bb853.pdf
-#
-If you want to send an 8 byte payload using an RDMA write, first you will write the request descriptor to the NIC using Programmed IO, and then the NIC will fetch the payload using a PCIe DMA read. I'd expect both the PIO and the DMA read to take between 200-500 nanoseconds, although the PIO should be faster.
-#
+##################
+If you want to send an 8 byte payload using an RDMA write, first you will write the request descriptor to the NIC using 
+Programmed IO, and then the NIC will fetch the payload using a PCIe DMA read. I'd expect both the PIO and the DMA read to take 
+between 200-500 nanoseconds, although the PIO should be faster.
 You can get rid of the DMA read and save some latency by putting the payload inside the request descriptor.
+##################
+Single Data Rate (SDR) - 2.5Gb/s per lane (10Gb/s for 4x). – Double Data Rate (DDR) - 5Gb/s per lane (20Gb/s for 4x). 
+– Quad Data Rate (QDR) - 10Gb/s per lane (40Gb/s for 4x). – Fourteen Data Rate (FDR) - 14Gb/s per lane (56Gb/s for 4x).
