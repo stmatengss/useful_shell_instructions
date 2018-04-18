@@ -6,8 +6,6 @@ service openibd start
 
 iblinkinfo # look up ib status in the subnet
 
-ibhosts
-
 ibv_devinfo -v  # A strength version tool for getting information about IB
 
 /etc/modprobe.d/mlx4.conf  # configure file for tunning performancce
@@ -19,3 +17,6 @@ ofed_info # get the info of whole software stack
 ofed_info -s # get version
 
 sudo modprobe ib_uverbs # load uverbs
+
+ibhosts # Get all node informations
+
