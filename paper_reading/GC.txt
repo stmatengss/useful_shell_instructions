@@ -3,3 +3,4 @@ https://people.eecs.berkeley.edu/~stephentu/presentations/workshop.pdf # Epoch
 https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-579.pdf # A loss Epoch implementation
 https://aturon.github.io/blog/2015/08/27/epoch/ # Rust Epoch
 http://www.cs.utoronto.ca/~tabrown/debra/paper.podc15.pdf # Overview about GC tech
+http://www.yebangyu.org/blog/2016/09/09/epochbasedreclamation/
