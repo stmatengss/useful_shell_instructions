@@ -1,2 +1,4 @@
 https://homes.cs.washington.edu/~arvind/cs422/lectureNotes/lfs-6.pdf # compact logs in lsfs
 https://people.eecs.berkeley.edu/~stephentu/presentations/workshop.pdf # Epoch
+https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-579.pdf # A loss Epoch implementation
+https://aturon.github.io/blog/2015/08/27/epoch/ # Rust Epoch
