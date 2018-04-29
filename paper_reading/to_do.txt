@@ -1,0 +1,6 @@
+Memory Disaggregation Programming Model
+Latency-tolerant software distributed shared memory [ATC 2015]
+Distributed programs with partitioned tables [OSDI 2010]
+
+Memory Disaggregation Architecture
+Network support for resource disaggregation in next-generation datacenters
