@@ -7,3 +7,7 @@ git branch # show u r in which branch now
 git revert HEAD # cancel the previous commit
 
 git reset --hard commit_id  # back up to a history commit
+
+git cheery [branch] # show differient commits
+
+git diff [branch] -- filename # diff between indicating files
