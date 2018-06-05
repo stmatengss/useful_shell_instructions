@@ -1,3 +1,4 @@
 https://community.mellanox.com/docs/DOC-1131
 https://community.mellanox.com/docs/DOC-1451
 https://community.mellanox.com/docs/DOC-2184 // How to configure soft-RoCE
+https://www.jianshu.com/p/af692d83d2aa // Massive
