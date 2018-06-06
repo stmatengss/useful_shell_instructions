@@ -27,3 +27,5 @@ ibdev2netdev # Look up network connections
 ib2ib_setup # Set up sub network
 
 sudo ibcheckstate # Check sub network status
+
+mount -o ro,loop MLNX_OFED_LINUX-<ver>-<OS label>.iso /mnt # Install OFED ISO
