@@ -25,3 +25,5 @@ ib_write_bw -Q 64 --size=32 --iters=100000 # Measure cqe
 ibdev2netdev # Look up network connections
 
 ib2ib_setup # Set up sub network
+
+sudo ibcheckstate # Check sub network status
