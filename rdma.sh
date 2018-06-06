@@ -21,3 +21,5 @@ sudo modprobe ib_uverbs # load uverbs
 ibhosts # Get all node informations
 
 ib_write_bw -Q 64 --size=32 --iters=100000 # Measure cqe
+
+ibdev2netdev # Look up network connections
