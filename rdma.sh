@@ -31,3 +31,5 @@ sudo ibcheckstate # Check sub network status
 mount -o ro,loop MLNX_OFED_LINUX-<ver>-<OS label>.iso /mnt # Install OFED ISO
 
 hca_self_test.ofed # Harware detector
+
+sudo mstflint -d 42:00.0 query # show device
