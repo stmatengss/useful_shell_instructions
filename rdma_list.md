@@ -28,6 +28,24 @@ Device #1:
      PXE            3.4.0740       3.4.0718      
 
   Status:           Up to date
+  Device #1:                                                                   
+----------                                                                   
+                                                                             
+  Device Type:      ConnectX3                                                
+  Part Number:      MCX354A-QCB_Ax                                           
+  Description:      ConnectX-3 VPI adapter card; dual-port QSFP; QDR IB (40Gb
+/s) and 10GigE; PCIe3.0x8 8GT/s; RoHS R6                                     
+  PSID:             MT_1090110018                                            
+  PCI Device Name:  42:00.0                                                  
+  Port1 MAC:        f4521491ba21                                             
+  Port2 MAC:        f4521491ba22                                             
+  Versions:         Current        Available                                 
+     FW             2.42.5000      2.42.5000                                 
+     PXE            3.4.0752       3.4.0752                                  
+                                                                             
+  Status:           Up to date                                               
+                                                                             
+
 ```
 Softiwarp
 https://www.reflectionsofthevoid.com/2011/03/how-to-install-soft-iwarp-on-ubuntu.html
