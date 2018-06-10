@@ -47,7 +47,6 @@ Device #1:
                                                                              
 
 ```
-Softiwarp
-https://www.reflectionsofthevoid.com/2011/03/how-to-install-soft-iwarp-on-ubuntu.html
-RDMA Tools
-https://community.mellanox.com/docs/DOC-3134
+* Softiwarp https://www.reflectionsofthevoid.com/2011/03/how-to-install-soft-iwarp-on-ubuntu.html
+* RDMA Tools https://community.mellanox.com/docs/DOC-3134
+* RoCE Q&A https://www.chelsio.com/roce/
