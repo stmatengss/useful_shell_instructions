@@ -44,7 +44,25 @@ Device #1:
      PXE            3.4.0752       3.4.0752                                  
                                                                              
   Status:           Up to date                                               
-                                                                             
+----------
+
+Infiniband device 'mlx4_0' port 1 status:                       
+        default gid:     fe80:0000:0000:0000:f452:1403:0091:ba21
+        base lid:        0x3                                    
+        sm lid:          0xc                                    
+        state:           4: ACTIVE                              
+        phys state:      5: LinkUp                              
+        rate:            40 Gb/sec (4X QDR)                     
+        link_layer:      InfiniBand                             
+                                                                
+Infiniband device 'mlx4_0' port 2 status:                       
+        default gid:     fe80:0000:0000:0000:f652:14ff:fe91:ba22
+        base lid:        0x0                                    
+        sm lid:          0x0                                    
+        state:           4: ACTIVE                              
+        phys state:      5: LinkUp                              
+        rate:            10 Gb/sec (1X QDR)                     
+        link_layer:      Ethernet                               
 
 ```
 * Softiwarp https://www.reflectionsofthevoid.com/2011/03/how-to-install-soft-iwarp-on-ubuntu.html
