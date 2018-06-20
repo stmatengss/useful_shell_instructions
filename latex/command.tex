@@ -1,0 +1,36 @@
+\usepackage{color}
+\newcommand{\cnote}[3]{{\color{#1}[[\textbf{#2:} #3]]}}
+\newcommand{\notedme}[1]{\cnote{blue}{DME}{#1}}
+\newcommand{\notes}[1]{\cnote{red}{SM}{#1}}
+\newcommand{\notez}[1]{\cnote{green}{ZH}{#1}}
+\newcommand{\noteh}[1]{\cnote{magenta}{HF}{#1}}
+\newcommand{\todo}[1]{{\color{red}#1}}
+\newcommand{\etal}{\emph{et~al.}}
+
+\newcommand{\change}[2][]{#2}
+\newcommand{\noncite}[1]{\textcolor{red}{[?]}}
+
+% Various math-related macros from Steve. May not all be used
+
+\renewcommand{\vec}[1]{\boldsymbol{\mathbf{#1}}}
+\newcommand{\mat}[1]{\mathsf{#1}}
+\newcommand{\T}{^\top} % non-ugly transpose symbol
+\newcommand{\abs}[1]{\lvert#1\rvert}
+\newcommand{\norm}[1]{\lVert#1\rVert}
+
+\DeclareMathOperator*{\argmin}{arg\,min}
+\DeclareMathOperator*{\argmax}{arg\,max}
+
+
+\usepackage[bookmarks=false]{hyperref}
+
+\definecolor{black}{rgb}{0, 0 ,0}
+\definecolor{blue}{rgb}{0, 0, 0.5}
+\definecolor{red}{rgb}{0.5, 0, 0}
+\definecolor{green}{rgb}{0, 0.5, 0}
+\hypersetup{
+	colorlinks = true,
+	linkcolor = red,
+	urlcolor = blue,
+	citecolor = green
+}
