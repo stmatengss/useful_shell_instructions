@@ -1,1 +1,2 @@
 NVthreads: Practical Persistence for Multi-threaded Applications
+https://db.cs.cmu.edu/papers/2015/p707-arulraj.pdf how to design NVM aware DB
