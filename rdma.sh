@@ -39,3 +39,5 @@ apt-get install dkms infiniband-diags libibverbs* ibacm librdmacm* libmlx4* libm
 ./mlnxofedinstall --without-dkms --add-kernel-support --kernel 3.13.0-85-generic --without-fw-update --force
 
 ib_write_bw --ib-dev=mlx5_0 -s 32 --run_infinitely -I 0 --qp=16 --cq-mod=1024 --post_list=64 # Gain Maximum Performance 
+
+ib_write_bw --ib-dev=mlx5_0 -s 32 --run_infinitely -I 0 --qp=16 --cq-mod=1024 --post_list=64 -O -i xxx -p xxx # More parameters (support dual port)
