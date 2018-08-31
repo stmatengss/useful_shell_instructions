@@ -160,3 +160,6 @@ sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.6 60 --slave 
 sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.7 40 --slave /usr/bin/g++ g++ /usr/bin/g++-4.7 
 sudo update-alternatives --config gcc
 # Solve the the conflict of gcc
+
+fusermount -u . 
+# Cancel mount
