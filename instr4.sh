@@ -163,3 +163,6 @@ sudo update-alternatives --config gcc
 
 fusermount -u . 
 # Cancel mount
+
+ssh-copy-id id@server
+# Easy to use way to avoid password
