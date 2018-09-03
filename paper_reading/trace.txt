@@ -1,0 +1,4 @@
+https://alexpucher.com/blog/2015/06/29/cloud-traces-and-production-workloads-for-your-research/
+http://cseweb.ucsd.edu/~snoeren/papers/fb-sigcomm15.pdf
+http://pages.cs.wisc.edu/~tbenson/IMC10_Data.html
+http://www.caida.org/home/
