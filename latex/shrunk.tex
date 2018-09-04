@@ -1,0 +1,11 @@
+\renewcommand \refname{\normalsize{References}\vspace{-0.2cm}}
+
+\makeatletter
+\renewcommand{\maketitle}{\bgroup\setlength{\parindent}{0pt}
+\begin{flushleft}
+  \textbf{\@title}
+
+  \@author
+\end{flushleft}\egroup
+}
+\makeatother
