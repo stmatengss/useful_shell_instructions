@@ -16,3 +16,5 @@ Single Data Rate (SDR) - 2.5Gb/s per lane (10Gb/s for 4x). – Double Data Rate 
 – Quad Data Rate (QDR) - 10Gb/s per lane (40Gb/s for 4x). – Fourteen Data Rate (FDR) - 14Gb/s per lane (56Gb/s for 4x).
 ##################
 https://www.snia.org/sites/default/files/SDC/2016/presentations/persistent_memory/IdanBurstein_RDMA_VERBs_Extensions.pdf
+##################
+https://community.mellanox.com/docs/DOC-2783 (QCN --> Congestion Control)
