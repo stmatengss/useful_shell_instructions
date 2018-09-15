@@ -70,3 +70,4 @@ Infiniband device 'mlx4_0' port 2 status:
 * RoCE Q&A https://www.chelsio.com/roce/
 * Tools http://www.hpcadvisorycouncil.com/events/switzerland_workshop/pdf/Presentations/Day%202/9_OFED%20SW%20stack.pdf
 * NBDX https://community.mellanox.com/docs/DOC-2113 
+* Memory Window https://www.openfabrics.org/images/eventpresos/2017presentations/112_Extended_Memory_Windows-_TOved.pdf
