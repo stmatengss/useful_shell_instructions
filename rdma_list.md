@@ -71,3 +71,4 @@ Infiniband device 'mlx4_0' port 2 status:
 * Tools http://www.hpcadvisorycouncil.com/events/switzerland_workshop/pdf/Presentations/Day%202/9_OFED%20SW%20stack.pdf
 * NBDX https://community.mellanox.com/docs/DOC-2113 
 * Memory Window https://www.openfabrics.org/images/eventpresos/2017presentations/112_Extended_Memory_Windows-_TOved.pdf
+* Using RDMA access NVM https://openfabrics.org/images/2018workshop/presentations/112_CLameter_NewTypesofMemory.pdf?a7362a&a7362a&e3d5f1&e3d5f1
