@@ -166,3 +166,7 @@ fusermount -u .
 
 ssh-copy-id id@server
 # Easy to use way to avoid password
+
+ldconfig
+
+ld -lzlib --verbose
