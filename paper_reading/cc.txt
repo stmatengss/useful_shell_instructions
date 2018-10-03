@@ -1,0 +1,4 @@
+http://www.inf.unibz.it/dis/teaching/DDB07/ln/ddb09.pdf
+https://pdfs.semanticscholar.org/presentation/dfed/2dbc9675afd2ad940373aea18ba61bad7df3.pdf
+http://www.vldb.org/pvldb/vol8/p209-yu.pdf # multi-cores
+http://www.vldb.org/pvldb/vol10/p553-harding.pdf # Distributed
