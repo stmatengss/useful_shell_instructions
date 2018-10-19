@@ -18,3 +18,4 @@ Single Data Rate (SDR) - 2.5Gb/s per lane (10Gb/s for 4x). – Double Data Rate 
 https://www.snia.org/sites/default/files/SDC/2016/presentations/persistent_memory/IdanBurstein_RDMA_VERBs_Extensions.pdf
 ##################
 https://community.mellanox.com/docs/DOC-2783 (QCN --> Congestion Control)
+http://netseminar.stanford.edu/seminars/03_16_17.pdf 
