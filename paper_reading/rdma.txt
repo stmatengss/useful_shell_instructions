@@ -19,3 +19,5 @@ https://www.snia.org/sites/default/files/SDC/2016/presentations/persistent_memor
 ##################
 https://community.mellanox.com/docs/DOC-2783 (QCN --> Congestion Control)
 http://netseminar.stanford.edu/seminars/03_16_17.pdf 
+
+The End of a Myth: Distributed Transactions Can Scale # RDMA DB
