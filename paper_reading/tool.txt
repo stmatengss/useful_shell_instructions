@@ -1,1 +1,2 @@
 https://www.sejda.com/ # PDF editor online
+https://software.intel.com/en-us/articles/pin-a-dynamic-binary-instrumentation-tool # Memory trace gather
