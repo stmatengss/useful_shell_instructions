@@ -1,0 +1,4 @@
+ICSE [https://2019.icse-conferences.org/]
+FSE [https://esec-fse19.ut.ee/]
+MiddleWare [http://2018.middleware-conference.org/]
+SOSP
