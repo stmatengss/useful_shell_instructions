@@ -23,3 +23,5 @@ http://netseminar.stanford.edu/seminars/03_16_17.pdf
 The End of a Myth: Distributed Transactions Can Scale # RDMA DB
 
 Security Enhancement in InfiniBand Architecture # Security
+
+A Performance Study to Guide RDMA Programming Decisions # RDMA tutorial
