@@ -4,4 +4,6 @@ Rethinking Distributed Indexing for RDMA - Based Networks
 
 Designing Databases for Future High-Performance Networks
 
-The end of a myth: Distributed transactions can scale
+The end of a myth: Distributed transactions can scalen # Benning 2
+
+The End of Slow Networks: It’s Time for a Redesign # Benning 1
