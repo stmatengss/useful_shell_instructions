@@ -1,0 +1,5 @@
+Scalable Data Management on Modern Networks 
+
+Rethinking Distributed Indexing for RDMA - Based Networks
+
+Designing Databases for Future High-Performance Networks
