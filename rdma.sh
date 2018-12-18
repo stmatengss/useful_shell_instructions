@@ -45,3 +45,5 @@ ib_write_bw --ib-dev=mlx5_0 -s 32 --run_infinitely -I 0 --qp=16 --cq-mod=1024 --
 ucx_perftest teaker-11 -t tag_lat -c 0 -s 4096 -T 4
 
 ibdump # Monitor RDMA
+
+show_gids
