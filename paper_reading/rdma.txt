@@ -29,3 +29,5 @@ A Performance Study to Guide RDMA Programming Decisions # RDMA tutorial
 https://www.intel.com/content/dam/www/public/us/en/documents/white-papers/intel-ethernet-flow-director.pdf # Flow Director
 
 https://www.openfabrics.org/images/eventpresos/2017presentations/211_IPoIBPacketProcessing_TOved.pdf # New Techniques
+
+https://openfabrics.org/images/2018workshop/presentations/304_LLiss_OnDeviceMemory.pdf # Device Memory
