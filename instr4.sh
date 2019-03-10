@@ -170,3 +170,5 @@ ssh-copy-id id@server
 ldconfig
 
 ld -lzlib --verbose
+
+watch -n1 numastat
