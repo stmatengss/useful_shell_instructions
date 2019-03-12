@@ -13,3 +13,5 @@ git reset HEAD \* # cancel fault rm operation
 git cheery [branch] # show differient commits
 
 git diff [branch] -- filename # diff between indicating files
+
+git fetch --all # fetch all remote resp
