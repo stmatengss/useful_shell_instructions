@@ -172,3 +172,5 @@ ldconfig
 ld -lzlib --verbose
 
 watch -n1 numastat
+
+free -m
