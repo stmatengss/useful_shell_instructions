@@ -1,0 +1,1 @@
+sudo qemu-system-x86_64 --enable-kvm -m 4096 -smp 4 ubuntu.img -drive file=rhel-server-6.7-x86_64-dvd.iso,media=cdrom,index=1 -drive file=ks.iso,media=cdrom,index=2 --nographic -append "console=ttyS0 ks=cdrom:/ks.cfg" -kernel tmp/isolinux/vmlinuz -initrd tmp/isolinux/initrd.img
