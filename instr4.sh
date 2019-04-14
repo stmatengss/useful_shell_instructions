@@ -171,6 +171,8 @@ ldconfig
 
 ld -lzlib --verbose
 
+parallel-ssh -h config/hosts -i "uptime" # Awesome
+
 watch -n1 numastat
 
 free -m
