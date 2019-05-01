@@ -33,3 +33,5 @@ https://www.openfabrics.org/images/eventpresos/2017presentations/211_IPoIBPacket
 https://openfabrics.org/images/2018workshop/presentations/304_LLiss_OnDeviceMemory.pdf # Device Memory
 
 https://community.mellanox.com/s/article/understanding-numa-node-for-performance-benchmarks # RDMA NUMA
+
+https://community.mellanox.com/s/article/physical-address-memory-region # Continues Page
