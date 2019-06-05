@@ -1,2 +1,3 @@
 info b
 del [id]
+frame [num]
