@@ -4,3 +4,6 @@ https://db.cs.cmu.edu/papers/2015/p707-arulraj.pdf how to design NVM aware DB
 #NVM Toturail http://research.cs.wisc.edu/sonar/tutorial/
 
 # NVM emulation https://pmem.io/2016/02/22/pm-emulation.html 
+
+https://arxiv.org/pdf/1804.04343.pdf  # Search Engine
+https://arxiv.org/pdf/1902.06289.pdf  # NVM threshold
