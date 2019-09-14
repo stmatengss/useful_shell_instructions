@@ -21,4 +21,4 @@ docker images
 sudo docker tag stmatengss/centos-rdma stmatengss/centos-rdma
 sudo docker push stmatengss/centos-rdma
 docker login
-./docker run --net=host --device=/dev/infiniband/uverbs0 --device=/dev/infiniband/rdma_cm -t -i stmatengss/centos-rdma /bin/bash
+./docker run --cap-add=IPC_LOCK --net=host --device=/dev/infiniband/uverbs0 --device=/dev/infiniband/rdma_cm -t -i stmatengss/centos-rdma /bin/bash
