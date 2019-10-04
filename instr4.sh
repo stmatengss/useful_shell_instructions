@@ -176,3 +176,6 @@ parallel-ssh -h config/hosts -i "uptime" # Awesome
 watch -n1 numastat
 
 free -m
+
+apt-cache depends ## lokk up dependency
+
