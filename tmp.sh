@@ -183,7 +183,8 @@ hca_id: mlx4_0
 
 
 
-root@4bfed8618b1d:/benchmark/graph500-2.1.4/mpi# ib_write_bw -a --iter 50000 192.168.1.60
+root@4bfed8618b1d:/benchmark/graph500-2.1.4/mpi# ib_write_bw -a --iter 20000 
+192.168.1.60                                                                 
 ---------------------------------------------------------------------------------------
                     RDMA_Write BW Test
  Dual-port       : OFF          Device         : mlx4_0
@@ -197,33 +198,35 @@ root@4bfed8618b1d:/benchmark/graph500-2.1.4/mpi# ib_write_bw -a --iter 50000 192
  rdma_cm QPs     : OFF
  Data ex. method : Ethernet
 ---------------------------------------------------------------------------------------
- local address: LID 0x03 QPN 0x33431 PSN 0x739436 RKey 0x18011b4c VAddr 0x007f527f589000
- remote address: LID 0x0a QPN 0x2aa31 PSN 0x86204a RKey 0x400103c1 VAddr 0x007f4f444ff000
+ local address: LID 0x03 QPN 0x3371a PSN 0xe5e87 RKey 0x10011b4e VAddr 0x007f507fa1f000
+ remote address: LID 0x0a QPN 0x2aa3e PSN 0x5eab46 RKey 0xb80103c1 VAddr 0x007f55810b6000
 ---------------------------------------------------------------------------------------
  #bytes     #iterations    BW peak[MB/sec]    BW average[MB/sec]   MsgRate[Mpps]
- 2          50000            0.00               10.43                5.467546
- 4          50000            0.00               20.74                5.437201
- 8          50000            0.00               41.68                5.462932
- 16         50000            0.00               83.53                5.474490
- 32         50000            0.00               166.62               5.459712
- 64         50000            0.00               332.85               5.453383
- 128        50000            0.00               662.85               5.430062
- 256        50000            0.00               1318.94              5.402398
- 512        50000            0.00               2607.23              5.339612
- 1024       50000            0.00               3405.64              3.487379
- 2048       50000            0.00               3542.37              1.813691
- 4096       50000            0.00               3608.18              0.923695
- 8192       50000            0.00               3636.45              0.465465
- 16384      50000            0.00               3650.15              0.233610
- 32768      50000            0.00               3653.77              0.116921
- 65536      50000            0.00               3658.48              0.058536
- 131072     50000            0.00               3660.67              0.029285
- 262144     50000            0.00               3661.62              0.014646
- 524288     50000            0.00               3662.81              0.007326
- 1048576    50000            0.00               3662.96              0.003663
- 2097152    50000            0.00               3662.97              0.001831
- 4194304    50000            0.00               3662.12              0.000916
- 8388608    50000            0.00               3662.02              0.000458
+ 2          20000            9.88               9.78               5.128076
+ 4          20000            30.52              28.80              7.549992
+ 8          20000            58.01              56.72              7.434908
+ 16         20000            115.16             113.02             7.406800
+ 32         20000            242.18             237.88             7.794765
+ 64         20000            319.54             315.43             5.168060
+ 128        20000            910.94             892.47             7.311107
+ 256        20000            1309.02            1292.44            5.293822
+ 512        20000            2569.95            2541.76            5.205526
+ 1024       20000            3450.66            3441.93            3.524538
+ 2048       20000            3560.78            3556.86            1.821113
+ 4096       20000            3613.43            3611.74            0.924606
+ 8192       20000            3639.55            3639.12            0.465807
+ 16384      20000            3652.82            3652.53            0.233762
+ 32768      20000            3660.37            3660.23            0.117127
+ 65536      20000            3660.91            3636.20            0.058179
+ 131072     20000            3665.45            3665.36            0.029323
+ 262144     20000            3666.12            3665.95            0.014664
+ 524288     20000            3666.14            3666.02            0.007332
+ 1048576    20000            3666.21            3666.12            0.003666
+ 2097152    20000            3666.33            3657.73            0.001829
+ 4194304    20000            3662.83            3662.82            0.000916
+ 8388608    20000            3665.51            3665.25            0.000458
+---------------------------------------------------------------------------------------
+
  
  root@4bfed8618b1d:/benchmark/graph500-2.1.4/mpi# ib_write_lat -a --iter 20000 192.168.1.60
 ---------------------------------------------------------------------------------------
@@ -268,7 +271,8 @@ root@4bfed8618b1d:/benchmark/graph500-2.1.4/mpi# ib_write_bw -a --iter 50000 192
 ---------------------------------------------------------------------------------------
 
 
-root@4bfed8618b1d:/benchmark/graph500-2.1.4/mpi# ib_read_bw -a --iter 50000 192.168.1.60                                  
+
+root@teaker-11:/home/mateng# ib_read_bw -a --iter 20000 teaker-10           
 ---------------------------------------------------------------------------------------
                     RDMA_Read BW Test
  Dual-port       : OFF          Device         : mlx4_0
@@ -282,34 +286,80 @@ root@4bfed8618b1d:/benchmark/graph500-2.1.4/mpi# ib_read_bw -a --iter 50000 192.
  rdma_cm QPs     : OFF
  Data ex. method : Ethernet
 ---------------------------------------------------------------------------------------
- local address: LID 0x03 QPN 0x33527 PSN 0x6db236 OUT 0x10 RKey 0xf0011b4c VAddr 0x007ff620b13000
- remote address: LID 0x0a QPN 0x2aa33 PSN 0x2b85a8 OUT 0x10 RKey 0x580103c1 VAddr 0x007f45c90b7000
+ local address: LID 0x03 QPN 0x33905 PSN 0xae899d OUT 0x10 RKey 0xb0011b4f VAddr 0x007f9fdbd08000
+ remote address: LID 0x0a QPN 0x2aa41 PSN 0xde3614 OUT 0x10 RKey 0xd80103c1 VAddr 0x007fc65e0db000
 ---------------------------------------------------------------------------------------
  #bytes     #iterations    BW peak[MB/sec]    BW average[MB/sec]   MsgRate[Mpps]
- 2          50000            0.00               9.08           4.757918
- 4          50000            0.00               18.14          4.756009
- 8          50000            0.00               36.31          4.758669
- 16         50000            0.00               72.56          4.755327
- 32         50000            0.00               144.84         4.746110
- 64         50000            0.00               290.28         4.756025
- 128        50000            0.00               581.26         4.761682
- 256        50000            0.00               1162.52        4.761688
- 512        50000            0.00               2158.67        4.420964
- 1024       50000            0.00               2780.76        2.847496
- 2048       50000            0.00               3265.82        1.672101
- 4096       50000            0.00               3519.76        0.901060
- 8192       50000            0.00               3660.40        0.468531
- 16384      50000            0.00               3690.47        0.236190
- 32768      50000            0.00               3692.53        0.118161
- 65536      50000            0.00               3691.07        0.059057
- 131072     50000            0.00               3691.21        0.029530
- 262144     50000            0.00               3692.21        0.014769
- 524288     50000            0.00               3688.68        0.007377
- 1048576    50000            0.00               3667.59        0.003668
- 2097152    50000            0.00               3667.02        0.001834
- 4194304    50000            0.00               3666.68        0.000917
- 8388608    50000            0.00               3666.47        0.000458
+ 2          20000            9.12               8.98               4.710248
+ 4          20000            24.14              23.15              6.069520
+ 8          20000            48.28              47.36              6.207736
+ 16         20000            96.57              94.95              6.222474
+ 32         20000            193.13             189.17             6.198695
+ 64         20000            386.27             383.39             6.281505
+ 128        20000            772.58             766.87             6.282158
+ 256        20000            1555.00            1542.79            6.319275
+ 512        20000            2179.66            2171.17            4.446564
+ 1024       20000            2786.16            2782.86            2.849648
+ 2048       20000            3279.68            3278.28            1.678481
+ 4096       20000            3531.81            3529.92            0.903660
+ 8192       20000            3666.90            3666.02            0.469251
+ 16384      20000            3669.92            3669.54            0.234850
+ 32768      20000            3669.51            3667.53            0.117361
+ 65536      20000            3670.14            3669.96            0.058719
+ 131072     20000            3669.78            3669.61            0.029357
+ 262144     20000            3667.72            3667.53            0.014670
+ 524288     20000            3667.93            3667.84            0.007336
+ 1048576    20000            3667.49            3667.37            0.003667
+ 2097152    20000            3667.64            3667.53            0.001834
+ 4194304    20000            3667.71            3666.50            0.000917
+ 8388608    20000            3666.29            3666.17            0.000458
 ---------------------------------------------------------------------------------------
+
+root@4bfed8618b1d:/benchmark/graph500-2.1.4/mpi# ib_read_bw -a --iter 20000 1
+92.168.1.60                                                                  
+---------------------------------------------------------------------------------------
+                    RDMA_Read BW Test
+ Dual-port       : OFF          Device         : mlx4_0
+ Number of qps   : 1            Transport type : IB
+ Connection type : RC           Using SRQ      : OFF
+ TX depth        : 128
+ CQ Moderation   : 100
+ Mtu             : 2048[B]
+ Link type       : IB
+ Outstand reads  : 16
+ rdma_cm QPs     : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0x03 QPN 0x33906 PSN 0xd21770 OUT 0x10 RKey 0xb8011b4f VAddr 0x007fdda5d4c000
+ remote address: LID 0x0a QPN 0x2aa42 PSN 0x4eac12 OUT 0x10 RKey 0xe00103c1 VAddr 0x007f3634f5c000
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MB/sec]    BW average[MB/sec]   MsgRate[Mpps]
+ 2          20000            8.83               8.68               4.552953
+ 4          20000            17.82              17.29              4.531563
+ 8          20000            35.99              34.73              4.551719
+ 16         20000            71.63              69.08              4.527375
+ 32         20000            143.61             142.64             4.673976
+ 64         20000            288.56             285.54             4.678329
+ 128        20000            573.09             554.60             4.543295
+ 256        20000            1148.85            1135.64            4.651599
+ 512        20000            2174.92            2166.73            4.437467
+ 1024       20000            2786.08            2784.15            2.850972
+ 2048       20000            3279.71            3278.80            1.678748
+ 4096       20000            3531.96            3530.29            0.903753
+ 8192       20000            3665.17            3661.51            0.468673
+ 16384      20000            3662.15            3661.76            0.234353
+ 32768      20000            3657.83            3657.64            0.117045
+ 65536      20000            3659.15            3659.01            0.058544
+ 131072     20000            3663.70            3663.66            0.029309
+ 262144     20000            3664.77            3664.73            0.014659
+ 524288     20000            3665.60            3665.53            0.007331
+ 1048576    20000            3666.83            3666.65            0.003667
+Conflicting CPU frequency values detected: 2398.515000 != 1223.359000. CPU Frequency is not max.
+ 2097152    20000            3667.22            3667.10            0.001834
+ 4194304    20000            3666.77            3666.32            0.000917
+ 8388608    20000            3667.13            3666.44            0.000458
+---------------------------------------------------------------------------------------
+
 
 root@4bfed8618b1d:/benchmark/graph500-2.1.4/mpi# ib_read_lat -a --iter 20000 
 192.168.1.60                                                                 
@@ -445,7 +495,6 @@ a --iter 20000 192.168.1.60
  4194304    20000            3662.89            3662.36        0.000916
  8388608    20000            3662.23            3661.76            0.000458
 ---------------------------------------------------------------------------------------
-
 root@4bfed8618b1d:/benchmark/graph500-2.1.4/mpi# ib_send_lat -a --iter 20000 192.168.1.6
 0
 ---------------------------------------------------------------------------------------
@@ -464,72 +513,27 @@ root@4bfed8618b1d:/benchmark/graph500-2.1.4/mpi# ib_send_lat -a --iter 20000 192
  remote address: LID 0x0a QPN 0x2aa3a PSN 0x3f5ccb
 ---------------------------------------------------------------------------------------
  #bytes #iterations    t_min[usec]    t_max[usec]  t_typical[usec]    t_avg[usec]    t_stdev[usec]   99% percentile[usec]   99.9% percentile[usec]
-Conflicting CPU frequency values detected: 2300.000000 != 2400.000000. CPU Frequency is not max.
-Conflicting CPU frequency values detected: 2299.921000 != 2397.265000. CPU Frequency is not max.
  2       20000          1.02           11.76        1.07               1.11            0.30             1.68                    5.00   
-Conflicting CPU frequency values detected: 2300.000000 != 2392.421000. CPU Frequency is not max.
-Conflicting CPU frequency values detected: 2299.921000 != 2400.000000. CPU Frequency is not max.
  4       20000          1.01           7.29         1.07               1.12            0.33             1.62                    5.80   
-Conflicting CPU frequency values detected: 2299.921000 != 2399.921000. CPU Frequency is not max.
-Conflicting CPU frequency values detected: 2299.921000 != 2400.000000. CPU Frequency is not max.
  8       20000          1.03           9.40         1.09               1.12            0.29             1.63                    5.02   
-Conflicting CPU frequency values detected: 2299.921000 != 2382.734000. CPU Frequency is not max.
-Conflicting CPU frequency values detected: 2299.921000 != 2397.343000. CPU Frequency is not max.
  16      20000          1.03           8.42         1.09               1.13            0.33             1.64                    5.81   
-Conflicting CPU frequency values detected: 2299.921000 != 2399.843000. CPU Frequency is not max.
-Conflicting CPU frequency values detected: 2299.921000 != 2392.031000. CPU Frequency is not max.
  32      20000          1.05           24.87        1.10               1.15            0.35             1.69                    6.07   
-Conflicting CPU frequency values detected: 2299.921000 != 2392.578000. CPU Frequency is not max.
-Conflicting CPU frequency values detected: 2299.921000 != 2400.000000. CPU Frequency is not max.
  64      20000          1.11           7.52         1.16               1.21            0.34             1.76                    5.90   
-Conflicting CPU frequency values detected: 2300.000000 != 2400.000000. CPU Frequency is not max.
-Conflicting CPU frequency values detected: 2299.921000 != 2399.921000. CPU Frequency is not max.
  128     20000          1.21           10.36        1.27               1.31            0.32             1.80                    5.83   
-Conflicting CPU frequency values detected: 2299.921000 != 2397.265000. CPU Frequency is not max.
-Conflicting CPU frequency values detected: 2299.921000 != 2392.265000. CPU Frequency is not max.
  256     20000          1.80           9.84         1.86               1.91            0.37             2.52                    6.81   
-Conflicting CPU frequency values detected: 2300.000000 != 2399.921000. CPU Frequency is not max.
-Conflicting CPU frequency values detected: 2300.000000 != 2399.843000. CPU Frequency is not max.
  512     20000          1.98           10.63        2.05               2.10            0.35             2.64                    7.09   
-Conflicting CPU frequency values detected: 2299.921000 != 2389.218000. CPU Frequency is not max.
-Conflicting CPU frequency values detected: 2299.921000 != 2399.921000. CPU Frequency is not max.
  1024    20000          2.36           10.64        2.43               2.48            0.36             3.07                    7.47   
-Conflicting CPU frequency values detected: 2300.000000 != 2400.000000. CPU Frequency is not max.
-Conflicting CPU frequency values detected: 2300.000000 != 2394.531000. CPU Frequency is not max.
  2048    20000          3.12           11.05        3.20               3.23            0.27             3.74                    7.13   
-Conflicting CPU frequency values detected: 2299.921000 != 2397.343000. CPU Frequency is not max.
-Conflicting CPU frequency values detected: 2299.921000 != 2399.921000. CPU Frequency is not max.
  4096    20000          3.68           17.60        3.77               3.86            0.64             4.48                    15.55  
-Conflicting CPU frequency values detected: 2300.000000 != 2397.265000. CPU Frequency is not max.
-Conflicting CPU frequency values detected: 2299.921000 != 2400.000000. CPU Frequency is not max.
  8192    20000          4.74           49.72        4.83               4.96            0.69             5.59                    16.63  
-Conflicting CPU frequency values detected: 2300.000000 != 2390.390000. CPU Frequency is not max.
-Conflicting CPU frequency values detected: 2300.000000 != 2392.500000. CPU Frequency is not max.
  16384   20000          6.82           20.70        6.92               7.11            0.70             7.69                    18.74  
-Conflicting CPU frequency values detected: 2299.921000 != 2392.578000. CPU Frequency is not max.
-Conflicting CPU frequency values detected: 2299.921000 != 2399.921000. CPU Frequency is not max.
  32768   20000          11.00          59.15        11.63              11.47           0.87             13.84                   22.96  
-Conflicting CPU frequency values detected: 2300.000000 != 2392.109000. CPU Frequency is not max.
-Conflicting CPU frequency values detected: 2299.921000 != 2389.843000. CPU Frequency is not max.
  65536   20000          19.89          59.97        20.08              20.17           0.77             24.04                   31.27  
-Conflicting CPU frequency values detected: 2300.000000 != 2400.000000. CPU Frequency is not max.
-Conflicting CPU frequency values detected: 2299.921000 != 2400.000000. CPU Frequency is not max.
  131072  20000          36.76          75.16        37.07              37.21           0.98             41.58                   48.38  
-Conflicting CPU frequency values detected: 2299.921000 != 2399.921000. CPU Frequency is not max.
-Conflicting CPU frequency values detected: 2299.921000 != 2399.921000. CPU Frequency is not max.
  262144  20000          70.63          95.45        71.18              71.39           1.12             76.09                   82.44  
-Conflicting CPU frequency values detected: 2300.000000 != 2400.000000. CPU Frequency is not max.
-Conflicting CPU frequency values detected: 2300.000000 != 2397.109000. CPU Frequency is not max.
  524288  20000          138.31         184.90       139.23             139.59          1.64             147.75                  150.92 
-Conflicting CPU frequency values detected: 2299.921000 != 2400.000000. CPU Frequency is not max.
-Conflicting CPU frequency values detected: 2300.000000 != 2397.265000. CPU Frequency is not max.
  1048576 20000          274.25         319.06       275.47             276.00          1.95             284.72                  289.02 
-Conflicting CPU frequency values detected: 2300.000000 != 2400.000000. CPU Frequency is not max.
-Conflicting CPU frequency values detected: 2299.921000 != 2399.921000. CPU Frequency is not max.
  2097152 20000          545.84         607.18       548.37             549.30          3.07             563.01                  569.89 
-Conflicting CPU frequency values detected: 2299.921000 != 2397.265000. CPU Frequency is not max.
-Conflicting CPU frequency values detected: 2299.921000 != 2399.921000. CPU Frequency is not max.
  4194304 20000          1089.19        1130.07      1092.85            1094.55         4.37             1111.08                 1119.19
-Conflicting CPU frequency values detected: 2299.921000 != 2400.000000. CPU Frequency is not max.
  8388608 20000          2239.42        4189.77      2247.02            2252.46         65.03            2287.38                 3761.26
 ---------------------------------------------------------------------------------------
