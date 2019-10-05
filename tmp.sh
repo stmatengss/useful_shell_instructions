@@ -121,3 +121,76 @@ vi ~/.bashrc
 vi ~/.bashrc
 source ~/.bashrc
 history
+
+│root@4129f2daa9bf:/# ibstat                   
+│CA 'mlx4_0'                                   
+│        CA type: MT4099                       
+│        Number of ports: 2                    
+│        Firmware version: 2.42.5000           
+│        Hardware version: 1                   
+│        Node GUID: 0xf45214030091ba10         
+│        System image GUID: 0xf45214030091ba13 
+│        Port 1:                               
+│                State: Active                 
+│                Physical state: LinkUp        
+│                Rate: 40                      
+│                Base lid: 10                  
+│                LMC: 0                        
+│                SM lid: 12                    
+│                Capability mask: 0x02514868   
+│                Port GUID: 0xf45214030091ba11 
+│                Link layer: InfiniBand        
+│        Port 2:                               
+│                State: Down                   
+│                Physical state: Disabled      
+│                Rate: 10                      
+│                Base lid: 0                   
+│                LMC: 0                        
+│                SM lid: 0                     
+│                Capability mask: 0x04010000   
+│                Port GUID: 0xf65214fffe91ba12 
+│                Link layer: Ethernet          
+
+
+
+root@4bfed8618b1d:/benchmark/graph500-2.1.4/mpi# ib_write_bw -a --iter 50000 192.168.1.60
+---------------------------------------------------------------------------------------
+                    RDMA_Write BW Test
+ Dual-port       : OFF          Device         : mlx4_0
+ Number of qps   : 1            Transport type : IB
+ Connection type : RC           Using SRQ      : OFF
+ TX depth        : 128
+ CQ Moderation   : 100
+ Mtu             : 2048[B]
+ Link type       : IB
+ Max inline data : 0[B]
+ rdma_cm QPs     : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0x03 QPN 0x33431 PSN 0x739436 RKey 0x18011b4c VAddr 0x007f527f589000
+ remote address: LID 0x0a QPN 0x2aa31 PSN 0x86204a RKey 0x400103c1 VAddr 0x007f4f444ff000
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MB/sec]    BW average[MB/sec]   MsgRate[Mpps]
+ 2          50000            0.00               10.43                5.467546
+ 4          50000            0.00               20.74                5.437201
+ 8          50000            0.00               41.68                5.462932
+ 16         50000            0.00               83.53                5.474490
+ 32         50000            0.00               166.62               5.459712
+ 64         50000            0.00               332.85               5.453383
+ 128        50000            0.00               662.85               5.430062
+ 256        50000            0.00               1318.94              5.402398
+ 512        50000            0.00               2607.23              5.339612
+ 1024       50000            0.00               3405.64              3.487379
+ 2048       50000            0.00               3542.37              1.813691
+ 4096       50000            0.00               3608.18              0.923695
+ 8192       50000            0.00               3636.45              0.465465
+ 16384      50000            0.00               3650.15              0.233610
+ 32768      50000            0.00               3653.77              0.116921
+ 65536      50000            0.00               3658.48              0.058536
+ 131072     50000            0.00               3660.67              0.029285
+ 262144     50000            0.00               3661.62              0.014646
+ 524288     50000            0.00               3662.81              0.007326
+ 1048576    50000            0.00               3662.96              0.003663
+ 2097152    50000            0.00               3662.97              0.001831
+ 4194304    50000            0.00               3662.12              0.000916
+ 8388608    50000            0.00               3662.02              0.000458
