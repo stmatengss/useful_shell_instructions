@@ -1,0 +1,5 @@
+deb http://us.archive.ubuntu.com/ubuntu/ precise multiverse
+deb-src http://us.archive.ubuntu.com/ubuntu/ precise multiverse
+deb http://us.archive.ubuntu.com/ubuntu/ precise-updates multiverse
+deb-src http://us.archive.ubuntu.com/ubuntu/ precise-updates multiverse
+deb http://archive.ubuntu.com/ubuntu xenial main restricted universe multiverse
