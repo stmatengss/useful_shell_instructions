@@ -23,9 +23,12 @@ sudo docker push stmatengss/centos-rdma
 docker login
 ./docker run --cap-add=IPC_LOCK --net=host --device=/dev/infiniband/uverbs0 --device=/dev/infiniband/rdma_cm -t -i stmatengss/centos-rdma /bin/bash
 
+docker container prune
+
 #### Ubuntu ####
 apt install apt-utils
 
 ssh-keygen -t rsa
 scp -P 17777 ~/.ssh/id_rsa.pub root@192.168.1.61:~/.ssh/authorized_keys        
+
 
