@@ -47,3 +47,10 @@ ucx_perftest teaker-11 -t tag_lat -c 0 -s 4096 -T 4
 ibdump # Monitor RDMA
 
 show_gids
+
+ib_uverbs
+ib_umad  
+ib_sa    
+ib_mad   
+ib_core  
+ib_addr  
