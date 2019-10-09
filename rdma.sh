@@ -69,3 +69,5 @@ sudo modprobe iw_cxgb3
 sudo modprobe iw_cxgb4
 sudo modprobe iw_nes
 sudo modprobe iw_c2
+
+mlnx_tune # A useful tool to maxmize performance
