@@ -31,4 +31,6 @@ apt install apt-utils
 ssh-keygen -t rsa
 scp -P 17777 ~/.ssh/id_rsa.pub root@192.168.1.61:~/.ssh/authorized_keys        
 
-
+#### CentOS ####
+systemctl daemon-reload
+systemctl restart docker.service
