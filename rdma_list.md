@@ -76,3 +76,7 @@ Infiniband device 'mlx4_0' port 2 status:
 * Remote Memory Management https://openfabrics.org/images/2018workshop/presentations/304_LLiss_OnDeviceMemory.pdf?a7362a&a7362a&e3d5f1&e3d5f1
 * DCT https://openfabrics.org/images/2018workshop/presentations/303_ARosenbaum_DynamicallyConnectedTransport.pdf
 * RDMA Perf https://community.mellanox.com/docs/DOC-2802
+
+
+========================== Config =============================
+https://community.mellanox.com/s/article/howto-find-the-logical-to-physical-port-mapping--linux-x
