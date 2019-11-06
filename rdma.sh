@@ -77,4 +77,5 @@ ethtool -S ib0 # statistic
 # ibdev2netdev => ifconfig xxx up
 
 mst start
+mst status -v
 
