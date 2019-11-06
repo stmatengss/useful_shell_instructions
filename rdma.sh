@@ -71,3 +71,5 @@ sudo modprobe iw_nes
 sudo modprobe iw_c2
 
 mlnx_tune # A useful tool to maxmize performance
+
+ethtool -S ib0 # statistic
