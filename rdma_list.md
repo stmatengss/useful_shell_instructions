@@ -1,3 +1,5 @@
+* https://community.mellanox.com/s/article/what-is-irq-affinity-x
+
 * https://github.com/sbates130272/rdmatools/blob/master/myfirstrdma/myfirstrdma.c
 * https://github.com/rleon/rdma-plumbing/blob/master/librdmacm/examples/rdma_xserver.c
 * https://github.com/styxyang/codelib/blob/bfae1bca8e516eb3594213ef16cd202f4c665f7b/c/ibtest/ib-conn.c
