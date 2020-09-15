@@ -81,16 +81,23 @@ Infiniband device 'mlx4_0' port 2 status:
 
 
 ========================== Config =============================
+
 https://community.mellanox.com/s/article/howto-find-the-logical-to-physical-port-mapping--linux-x
 
 ========================= SoftiWrap ===========================
+
 https://github.com/animeshtrivedi/blog/blob/master/post/2019-06-26-siw.md
 
 ========================= Tools ===============================
+
 https://community.mellanox.com/s/article/roce-rdma-tools
 
 https://community.mellanox.com/s/article/understanding-mlx5-ethtool-counters
 
-
 ========================= Storage API =========================
+
 https://community.mellanox.com/s/article/what-is-iser-x
+
+========================= DCQCN ===============================
+
+https://community.mellanox.com/s/article/understanding-dc-qcn-algorithm-for-roce-congestion-control
