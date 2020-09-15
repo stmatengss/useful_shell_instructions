@@ -9,3 +9,8 @@ if (ctx.msg_length > (1 << port_attr.active_mtu + 7)) {
   ctx.msg_length, 1 << (port_attr.active_mtu + 7));
   goto out;
 }
+
+wr.sg_list = &sg_list;
+wr.dc.ah = ah[mn];
+wr.dc.dct_access_key = DCTBENCH_DCT_KEY;
+wr.dc.dct_number = remote_dct_attr[mn]->dct_num;
