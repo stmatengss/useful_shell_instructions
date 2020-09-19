@@ -105,3 +105,7 @@ https://community.mellanox.com/s/article/understanding-dc-qcn-algorithm-for-roce
 ========================= New Tool ============================
 
 https://man7.org/linux/man-pages/man8/rdma.8.html
+
+========================= MTU Consideration ===================
+
+https://community.mellanox.com/s/article/mtu-considerations-for-roce-based-applications
