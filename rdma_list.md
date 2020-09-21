@@ -109,3 +109,7 @@ https://man7.org/linux/man-pages/man8/rdma.8.html
 ========================= MTU Consideration ===================
 
 https://community.mellanox.com/s/article/mtu-considerations-for-roce-based-applications
+
+========================= Memory Window =======================
+
+https://www.openfabrics.org/images/2018workshop/presentations/301_TOved_NonContiguousMemoryRegistration.pdf
