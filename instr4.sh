@@ -179,3 +179,4 @@ free -m
 
 apt-cache depends ## lokk up dependency
 
+watch ss -t -a
