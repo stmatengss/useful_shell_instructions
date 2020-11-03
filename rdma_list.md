@@ -113,3 +113,7 @@ https://community.mellanox.com/s/article/mtu-considerations-for-roce-based-appli
 ========================= Memory Window =======================
 
 https://www.openfabrics.org/images/2018workshop/presentations/301_TOved_NonContiguousMemoryRegistration.pdf
+
+========================= Tag Matching ========================
+
+https://community.mellanox.com/s/article/understanding-mpi-tag-matching-and-rendezvous-offloads--connectx-5-x
