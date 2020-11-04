@@ -117,3 +117,7 @@ https://www.openfabrics.org/images/2018workshop/presentations/301_TOved_NonConti
 ========================= Tag Matching ========================
 
 https://community.mellanox.com/s/article/understanding-mpi-tag-matching-and-rendezvous-offloads--connectx-5-x
+
+========================= New Features ========================
+
+https://docs.mellanox.com/display/rdmacore50/Migration+to+RDMA-Core
