@@ -121,3 +121,7 @@ https://community.mellanox.com/s/article/understanding-mpi-tag-matching-and-rend
 ========================= New Features ========================
 
 https://docs.mellanox.com/display/rdmacore50/Migration+to+RDMA-Core
+
+========================= Device Memory =======================
+
+https://openfabrics.org/images/2018workshop/presentations/304_LLiss_OnDeviceMemory.pdf?a7362a&a7362a
