@@ -79,3 +79,7 @@ ethtool -S ib0 # statistic
 mst start
 mst status -v
 
+# Limit Bandwidth
+tc qdisc add dev eth0 root netem rate 100Mbit
+ethtool -s em1 speed 100 duplex full autoneg off/on
+sudo ibportstate 1 1 width 1
