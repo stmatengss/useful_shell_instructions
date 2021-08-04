@@ -182,3 +182,5 @@ apt-cache depends ## lokk up dependency
 watch ss -t -a
 
 nc -vz 192.168.0.117 1-100
+
+hostnamectl
