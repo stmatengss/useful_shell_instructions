@@ -186,3 +186,8 @@ nc -vz 192.168.0.117 1-100
 hostnamectl
 
 grep -rnw '/path/to/somewhere/' -e 'pattern'
+
+# Tool Chain
+which xxxx
+ldd /usr/bin/xxx
+readelf -a libxxx.so
