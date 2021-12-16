@@ -83,3 +83,5 @@ mst status -v
 tc qdisc add dev eth0 root netem rate 100Mbit
 ethtool -s em1 speed 100 duplex full autoneg off/on
 sudo ibportstate 1 1 width 1
+
+watch -n 1 'ethtool -S eth1 | grep bytes_phy'
