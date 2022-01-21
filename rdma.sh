@@ -85,3 +85,5 @@ ethtool -s em1 speed 100 duplex full autoneg off/on
 sudo ibportstate 1 1 width 1
 
 watch -n 1 'ethtool -S eth1 | grep bytes_phy'
+
+sockperf ping-pong # test lat
