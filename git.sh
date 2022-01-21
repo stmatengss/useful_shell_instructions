@@ -15,3 +15,7 @@ git cheery [branch] # show differient commits
 git diff [branch] -- filename # diff between indicating files
 
 git fetch --all # fetch all remote resp
+
+# git move patch
+git format-patch -s n
+git am 00x
